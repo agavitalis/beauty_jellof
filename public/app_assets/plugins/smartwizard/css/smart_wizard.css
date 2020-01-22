@@ -1,0 +1,308 @@
+/*!
+ * SmartWizard v4.3.x
+ * jQuery Wizard Plugin
+ * http://www.techlaboratory.net/smartwizard
+ *
+ * Created by Dipu Raj
+ * http://dipuraj.me
+ *
+ * Licensed under the terms of MIT License
+ * https://github.com/techlab/SmartWizard/blob/master/LICENSE
+ */
+
+/* SmartWizard Basic CSS */
+.sw-main {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* border: 5px solid #f0e6f0; */
+}
+
+.sw-main .sw-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.sw-main .step-content {
+    display: none;
+    position: relative;
+    margin: 0;
+}
+
+.sw-main .sw-toolbar {
+    margin-left: 0;
+}
+
+/* SmartWizard Theme: White */
+.sw-theme-default {
+    
+}
+
+.sw-theme-default .sw-container {
+    min-height: 250px;
+}
+
+.sw-theme-default .step-content {
+    padding: 30px;
+    border:5px solid #F4F4F4;
+    background-color: #fff;
+	margin: 30px 0;
+    text-align: left;
+}
+
+.sw-theme-default .sw-toolbar {
+    background: #f9f9f9;
+    border-radius: 0 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    margin-bottom: 0 !important;
+}
+
+.sw-theme-default .sw-toolbar-top {
+    border-bottom-color: #fff !important;
+}
+
+.sw-theme-default .sw-toolbar-bottom {
+    border-top-color: #fff !important;
+}
+
+.sw-theme-default > ul.step-anchor > li {
+    position: relative;
+	text-align: center;
+}
+
+.sw-theme-default > ul.step-anchor > li > a, .sw-theme-default > ul.step-anchor > li > a:hover {
+    border: none !important;
+    color: #404040;
+    text-decoration: none;
+    outline-style: none;
+    background: transparent !important;
+    border: none !important;
+    cursor: not-allowed;
+	font-size: 18px;
+}
+
+.sw-theme-default > ul.step-anchor > li.clickable > a:hover {
+    color: #4285F4 !important;
+    background: transparent !important;
+    cursor: pointer;
+}
+.sw-theme-default > ul.step-anchor > li.active > a {
+    border: none !important;
+    background: #00becf !important;
+    cursor: pointer;
+	border-radius:0 !important;
+	color:#fff;
+}
+
+.sw-theme-default > ul.step-anchor > li.active > a::after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.sw-theme-default > ul.step-anchor > li.done > a {
+    border: none !important;
+    color: #fff !important;
+    background: #ff5ea5 !important;
+    cursor: pointer;
+	border-radius:0 !important;
+}
+.sw-theme-default > ul.step-anchor > li > a span i{
+	font-size: 0;
+}
+.sw-theme-default > ul.step-anchor > li > a span{
+	width:30px; 
+	height:30px;
+	border-radius:30px;
+	background-color:rgba(0,0,0,0.1);
+	display: inline-block;
+	margin-right:5px;
+}
+.sw-theme-default > ul.step-anchor > li.done > a span strong{
+	font-size: 0;
+}
+.sw-theme-default > ul.step-anchor > li.done > a span i{
+	font-size: 18px;
+}
+.sw-theme-default > ul.step-anchor > li.done > a span{
+	
+}
+.sw-theme-default > ul.step-anchor > li.done > a::after {
+    background: #5cb85c;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.sw-theme-default > ul.nav-tabs {
+	border-bottom: 0;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.sw-theme-default > ul.step-anchor > li.danger > a {
+    border: none !important;
+    color: #d9534f !important;
+    /* background: #d9534f !important; */
+    cursor: pointer;
+}
+
+.sw-theme-default > ul.step-anchor > li.danger > a::after {
+    background: #d9534f;
+    border-left-color: #f8d7da;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.sw-theme-default > ul.step-anchor > li.disabled > a, .sw-theme-default > ul.step-anchor > li.disabled > a:hover {
+    color: #eee !important;
+    cursor: not-allowed;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+    .sw-theme-default > .nav-tabs > li {
+        float: none !important;
+    }
+}
+
+/* Common Loader */
+.sw-loading::after {
+    position: absolute;
+    display: block;
+    opacity: 1;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,.7);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    z-index: 2;
+}
+
+.sw-loading::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    -webkit-animation: spin 1s linear infinite;
+ /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/* Extra */
+.sw-toolbar-top,
+.sw-btn-group-extra{
+	display:none;
+}
+.book-time .btn{
+	border-radius:4px;
+	background-color:#f5f5f5;
+}
+.btn-group > .btn-group:not(:first-child) > .btn, 
+.btn-group > .btn:not(:first-child),
+.book-time .btn-group > .btn-group:not(:last-child) > .btn, 
+.book-time .btn-group > .btn:not(:last-child):not(.dropdown-toggle){
+	border-radius:4px;
+}
+.book-time .btn input{
+	position:absolute;
+	opacity:0;
+}
+.book-time .btn.active{
+	background-color:#ff5ea5;
+	color:#fff;
+}
+.book-time  .btn.active-time{
+	background-color:#00becf;
+	font-weight:700;
+	color:#fff;
+}
+.sw-theme-default .bootstrap-select .btn.dropdown-toggle{
+	border-radius: 0;
+	border: 2px solid #e7ecf1 !important;
+	height:50px;
+	font-size:16px;
+	color:#707070;
+}
+.sw-theme-default .bootstrap-select.btn-group .dropdown-toggle .caret{
+	top: 19px;
+	right: 14px;
+}
+.sw-theme-default .form-control{
+	height: 50px;
+	font-size: 16px;
+	border: 2px solid #e7ecf1;
+	color:#707070;
+	padding:10px 15px;
+}
+.successful-check {
+    width: 200px;
+    height: 200px;
+    border: 7px solid #00bb27;
+    font-size: 100px;
+    color: #00bb27;
+    border-radius: 200px;
+    line-height: 185px;
+    margin: auto;
+}
+.successful-box  h2{
+    font-size: 84px;
+    line-height: 100px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.bootstrap-datetimepicker-widget{
+	padding:10px !important;
+	width:280px !important;	
+}
+@media only screen and (max-width: 767px) {
+	.successful-check {
+		width: 150px;
+		height: 150px;
+		border: 4px solid #00bb27;
+		line-height: 155px;
+		font-size: 70px;
+	}
+	.successful-box h2 {
+		font-size: 45px;
+		line-height: 80px;
+	}
+}
