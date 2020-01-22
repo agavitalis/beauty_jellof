@@ -27,8 +27,8 @@ class IndexController extends Controller
         return view('index');
     }
 
-    public function menu()
+    public function bookings(Request $request)
     {
-        return view('menu');
+        return view('bookings');
     }
 }

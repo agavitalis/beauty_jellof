@@ -4,7 +4,7 @@
 Route::group(['namespace'=>"Appp"],function(){
     
     Route::get('/', 'IndexController@index')->name('index');
-    Route::get('/menu', 'IndexController@menu')->name('menu');
+    Route::match(['GET','POST'],'/bookings', 'IndexController@bookings')->name('bookings');
     Route::get('/contact', 'IndexController@contact')->name('contact');
     
 });
