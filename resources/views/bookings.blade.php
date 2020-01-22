@@ -3,8 +3,8 @@
 @section('styles')
 	
 	<!-- Bookings Css -->
-	<link class="skin" rel="stylesheet" type="text/css" href="{{ asset('app_assets/plugins/smartwizard/css/smart_wizard.css') }}">
-	<link rel="stylesheet" href="{{ asset('app_assets/plugins/datepicker/css/bootstrap-datetimepicker.min.css') }}"/>
+	<link class="skin" rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/plugins/smartwizard/css/smart_wizard.css') }}">
+	<link rel="stylesheet" href="{{ secure_asset('app_assets/plugins/datepicker/css/bootstrap-datetimepicker.min.css') }}"/>
 	<!-- Bookings Style -->
 @endsection
 
@@ -17,7 +17,7 @@
 	<!-- Content -->
 	<div class="page-content bg-white">
 		<!-- inner page banner -->
-		<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{ asset('app_assets/images/banner/bnr1.jpg') }});">
+		<div class="dlab-bnr-inr overlay-primary" style="background-image:url({{ secure_asset('app_assets/images/banner/bnr1.jpg') }});">
 			<div class="container">
 				<div class="dlab-bnr-inr-entry">
 					<h1 class="text-white">Booking</h1>
@@ -387,26 +387,26 @@
     
 @section('scripts')
 <!-- JAVASCRIPT FILES ========================================= -->
-	<script src="{{ asset('app_assets/js/jquery.min.js') }}"></script><!-- JQUERY.MIN JS -->
-    <script src="{{ asset('app_assets/plugins/wow/wow.js') }}"></script><!-- WOW JS -->
-    <script src="{{ asset('app_assets/plugins/bootstrap/js/popper.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
-    <script src="{{ asset('app_assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
-    <script src="{{ asset('app_assets/plugins/bootstrap-select/bootstrap-select.min.js') }}"></script><!-- FORM JS -->
-    <script src="{{ asset('app_assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script><!-- FORM JS -->
-    <script src="{{ asset('app_assets/plugins/magnific-popup/magnific-popup.js') }}"></script><!-- MAGNIFIC POPUP JS -->
-    <script src="{{ asset('app_assets/plugins/counter/waypoints-min.js') }}"></script><!-- WAYPOINTS JS -->
-    <script src="{{ asset('app_assets/plugins/counter/counterup.min.js') }}"></script><!-- COUNTERUP JS -->
-    <script src="{{ asset('app_assets/plugins/imagesloaded/imagesloaded.js') }}"></script><!-- IMAGESLOADED -->
-    <script src="{{ asset('app_assets/plugins/masonry/masonry-3.1.4.js') }}"></script><!-- MASONRY -->
-    <script src="{{ asset('app_assets/plugins/masonry/masonry.filter.js') }}"></script><!-- MASONRY -->
-    <script src="{{ asset('app_assets/plugins/owl-carousel/owl.carousel.js') }}"></script><!-- OWL SLIDER -->
-    <script src="{{ asset('app_assets/plugins/rangeslider/rangeslider.js') }}"></script><!-- Rangeslider -->
-    <script src="{{ asset('app_assets/js/custom.min.js') }}"></script><!-- CUSTOM FUCTIONS  -->
-    <script src="{{ asset('app_assets/js/dz.carousel.min.js') }}"></script><!-- SORTCODE FUCTIONS  -->
-    <script src="{{ asset('app_assets/js/dz.ajax.js') }}"></script><!-- CONTACT JS  -->
-    <script src="{{ asset('app_assets/plugins/datepicker/js/moment.js') }}"></script><!-- DATEPICKER JS -->
-    <script src="{{ asset('app_assets/plugins/datepicker/js/bootstrap-datetimepicker.min.js') }}"></script><!-- DATEPICKER JS -->
-    <script src="{{ asset('app_assets/plugins/smartwizard/js/jquery.smartWizard.js') }}"></script>
+	<script src="{{ secure_asset('app_assets/js/jquery.min.js') }}"></script><!-- JQUERY.MIN JS -->
+    <script src="{{ secure_asset('app_assets/plugins/wow/wow.js') }}"></script><!-- WOW JS -->
+    <script src="{{ secure_asset('app_assets/plugins/bootstrap/js/popper.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src="{{ secure_asset('app_assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
+    <script src="{{ secure_asset('app_assets/plugins/bootstrap-select/bootstrap-select.min.js') }}"></script><!-- FORM JS -->
+    <script src="{{ secure_asset('app_assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script><!-- FORM JS -->
+    <script src="{{ secure_asset('app_assets/plugins/magnific-popup/magnific-popup.js') }}"></script><!-- MAGNIFIC POPUP JS -->
+    <script src="{{ secure_asset('app_assets/plugins/counter/waypoints-min.js') }}"></script><!-- WAYPOINTS JS -->
+    <script src="{{ secure_asset('app_assets/plugins/counter/counterup.min.js') }}"></script><!-- COUNTERUP JS -->
+    <script src="{{ secure_asset('app_assets/plugins/imagesloaded/imagesloaded.js') }}"></script><!-- IMAGESLOADED -->
+    <script src="{{ secure_asset('app_assets/plugins/masonry/masonry-3.1.4.js') }}"></script><!-- MASONRY -->
+    <script src="{{ secure_asset('app_assets/plugins/masonry/masonry.filter.js') }}"></script><!-- MASONRY -->
+    <script src="{{ secure_asset('app_assets/plugins/owl-carousel/owl.carousel.js') }}"></script><!-- OWL SLIDER -->
+    <script src="{{ secure_asset('app_assets/plugins/rangeslider/rangeslider.js') }}"></script><!-- Rangeslider -->
+    <script src="{{ secure_asset('app_assets/js/custom.min.js') }}"></script><!-- CUSTOM FUCTIONS  -->
+    <script src="{{ secure_asset('app_assets/js/dz.carousel.min.js') }}"></script><!-- SORTCODE FUCTIONS  -->
+    <script src="{{ secure_asset('app_assets/js/dz.ajax.js') }}"></script><!-- CONTACT JS  -->
+    <script src="{{ secure_asset('app_assets/plugins/datepicker/js/moment.js') }}"></script><!-- DATEPICKER JS -->
+    <script src="{{ secure_asset('app_assets/plugins/datepicker/js/bootstrap-datetimepicker.min.js') }}"></script><!-- DATEPICKER JS -->
+    <script src="{{ secure_asset('app_assets/plugins/smartwizard/js/jquery.smartWizard.js') }}"></script>
 	<script>
     $(document).ready(function() {
 

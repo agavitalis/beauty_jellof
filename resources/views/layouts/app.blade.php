@@ -14,8 +14,8 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON -->
-	<link rel="icon" href="{{ asset('app_assets/image/favicon.ico') }}" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('app_assets/image/favicon.css') }}" />
+	<link rel="icon" href="{{ secure_asset('app_assets/image/favicon.ico') }}" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ secure_asset('app_assets/image/favicon.css') }}" />
 	
 	<!-- PAGE TITLE HERE -->
 	<title>BeautyJolly : Beauty Spa Salon </title>
@@ -29,10 +29,10 @@
 	<![endif]-->
 	
 
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/plugins.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/style.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/templete.min.css') }}">
-	<link class="skin" rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/skin/skin-1.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/plugins.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/style.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/templete.min.css') }}">
+	<link class="skin" rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/skin/skin-1.css') }}">
     <!-- Styles -->
     @yield('styles')
     <!-- Styles END -->

@@ -3,9 +3,9 @@
 		<!-- START REVOLUTION SLIDER 5.4.6.3 fullwidth mode -->
 		<div id="rev_slider_265_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3">
 			<ul>  <!-- SLIDE  -->
-				<li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('app_assets/images/main-slider/slide3.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+				<li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ secure_asset('app_assets/images/main-slider/slide3.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 					<!-- MAIN IMAGE -->
-					<img src="{{ asset('app_assets/images/main-slider/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+					<img src="{{ secure_asset('app_assets/images/main-slider/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 					<div class="tp-caption tp-shape tp-shapewrapper bg-primary tp-resizeme" 
 						id="slide-100-layer-1" 
 						data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']" 
@@ -111,9 +111,9 @@
 						style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="#" class="site-button-secondry button-md">Talk To US</a>
 					</div>
 				</li>
-				<li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('app_assets/images/main-slider/slide4.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+				<li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ secure_asset('app_assets/images/main-slider/slide4.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 					<!-- MAIN IMAGE -->
-					<img src="{{ asset('app_assets/images/main-slider/slide4.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+					<img src="{{ secure_asset('app_assets/images/main-slider/slide4.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 					<div class="tp-caption tp-shape tp-shapewrapper bg-primary tp-resizeme" 
 						id="slide-200-layer-1" 
 						data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']" 

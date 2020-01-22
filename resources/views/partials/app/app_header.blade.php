@@ -27,7 +27,7 @@
                 <div class="container clearfix">
                     <!-- website logo -->
                     <div class="logo-header mostion">
-						<a href="index-2.html" class="dez-page"><img src="{{ asset('app_assets/images/logo-2.png') }}" alt=""></a>
+						<a href="index-2.html" class="dez-page"><img src="{{ secure_asset('app_assets/images/logo-2.png') }}" alt=""></a>
 					</div>
                     <!-- nav toggle button -->
                     <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
