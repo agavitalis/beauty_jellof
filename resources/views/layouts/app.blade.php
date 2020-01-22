@@ -14,8 +14,8 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON -->
-	<link rel="icon" href="{{ asset('app_assets/image/favicon.ico') }}" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('app_assets/image/favicon.css') }}" />
+	<link rel="icon" href="{{ secure_asset('app_assets/image/favicon.ico') }}" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ secure_asset('app_assets/image/favicon.css') }}" />
 	
 	<!-- PAGE TITLE HERE -->
 	<title>BeautyJolly : Beauty Spa Salon </title>
@@ -29,14 +29,14 @@
 	<![endif]-->
 	
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/plugins.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/style.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/css/templete.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/plugins.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/style.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/css/templete.min.css') }}">
 	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css') }}">
 	<!-- Revolution Slider Css -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/plugins/revolution/revolution/css/layers.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/plugins/revolution/revolution/css/settings.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('app_assets/plugins/revolution/revolution/css/navigation.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/plugins/revolution/revolution/css/layers.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/plugins/revolution/revolution/css/settings.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ secure_asset('app_assets/plugins/revolution/revolution/css/navigation.css') }}">
 	<!-- Revolution Navigation Style -->
 </head>
 <body id="bg">
@@ -73,7 +73,7 @@
                 <div class="container clearfix">
                     <!-- website logo -->
                     <div class="logo-header mostion">
-						<a href="index-2.html" class="dez-page"><img src="{{ asset('app_assets/images/logo-2.png') }}" alt=""></a>
+						<a href="index-2.html" class="dez-page"><img src="{{ secure_asset('app_assets/images/logo-2.png') }}" alt=""></a>
 					</div>
                     <!-- nav toggle button -->
                     <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,9 +121,9 @@
 			<!-- START REVOLUTION SLIDER 5.4.6.3 fullwidth mode -->
 			<div id="rev_slider_265_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3">
 				<ul>  <!-- SLIDE  -->
-					<li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('app_assets/images/main-slider/slide3.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					<li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ secure_asset('app_assets/images/main-slider/slide3.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 						<!-- MAIN IMAGE -->
-						<img src="{{ asset('app_assets/images/main-slider/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+						<img src="{{ secure_asset('app_assets/images/main-slider/slide3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 						<div class="tp-caption tp-shape tp-shapewrapper bg-primary tp-resizeme" 
 							id="slide-100-layer-1" 
 							data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']" 
@@ -229,9 +229,9 @@
 							style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="#" class="site-button-secondry button-md">Talk To US</a>
 						</div>
 					</li>
-					<li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('app_assets/images/main-slider/slide4.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					<li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ secure_asset('app_assets/images/main-slider/slide4.jpg') }}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 						<!-- MAIN IMAGE -->
-						<img src="{{ asset('app_assets/images/main-slider/slide4.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+						<img src="{{ secure_asset('app_assets/images/main-slider/slide4.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 						<div class="tp-caption tp-shape tp-shapewrapper bg-primary tp-resizeme" 
 							id="slide-200-layer-1" 
 							data-x="['left','left','center','center']" data-hoffset="['30','30','0','0']" 
@@ -343,7 +343,7 @@
 		</div>  
         <!-- Main Slider -->
 		<!-- Map And Form -->
-		<div class="section-full bg-white content-inner-2" style="background-image:url({{ asset('app_assets/images/background/bg7.jpg') }}); background-size: cover;">
+		<div class="section-full bg-white content-inner-2" style="background-image:url({{ secure_asset('app_assets/images/background/bg7.jpg') }}); background-size: cover;">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 m-b30 align-self-center">
@@ -363,10 +363,10 @@
 					</div>
 					<div class="col-lg-6 offset-lg-1">
 						<div class="img-collage">
-							<div class="coll-1"><img src="{{ asset('app_assets/images/collage/pic1.jpg') }}" alt=""/></div>
-							<div class="coll-2"><img src="{{ asset('app_assets/images/collage/pic2.jpg') }}" alt=""/></div>
-							<div class="coll-3"><img src="{{ asset('app_assets/images/collage/pic3.jpg') }}" alt=""/></div>
-							<div class="coll-4"><img src="{{ asset('app_assets/images/collage/pic4.jpg') }}" alt=""/></div>
+							<div class="coll-1"><img src="{{ secure_asset('app_assets/images/collage/pic1.jpg') }}" alt=""/></div>
+							<div class="coll-2"><img src="{{ secure_asset('app_assets/images/collage/pic2.jpg') }}" alt=""/></div>
+							<div class="coll-3"><img src="{{ secure_asset('app_assets/images/collage/pic3.jpg') }}" alt=""/></div>
+							<div class="coll-4"><img src="{{ secure_asset('app_assets/images/collage/pic4.jpg') }}" alt=""/></div>
 						</div>
 					</div>
 				</div>
@@ -386,7 +386,7 @@
 						</div> 
 					</div>
 					<div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col">
-						<img src="{{ asset('app_assets/images/about/img1.jpg') }}" class="abt-img img-cover equal-col" alt=""/>
+						<img src="{{ secure_asset('app_assets/images/about/img1.jpg') }}" class="abt-img img-cover equal-col" alt=""/>
 					</div>
 					<div class="bg-primary col-xl-3 p-a0 col-md-6 col-lg-3 col-xs-12 equal-col dis-tbl">
 						<div class="p-a30 text-white dis-tbl-cell wow fadeIn" data-wow-delay="0.6s">
@@ -397,7 +397,7 @@
 						</div> 
 					</div>
 					<div class="col-xl-3 col-lg-3 col-md-6 p-a0 col-xs-12 equal-col">
-						<img src="{{ asset('app_assets/images/about/img2.jpg') }}" class="abt-img img-cover equal-col" alt=""/>
+						<img src="{{ secure_asset('app_assets/images/about/img2.jpg') }}" class="abt-img img-cover equal-col" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -473,7 +473,7 @@
 		</div>
 		<!-- About Us -->
 		<!-- Our Services -->
-		<div class="section-full content-inner bg-blue-light" style="background-image:url({{ asset('app_assets/images/background/bg5.jpg') }}); background-position: bottom; background-size: cover; background-repeat: no-repeat;">
+		<div class="section-full content-inner bg-blue-light" style="background-image:url({{ secure_asset('app_assets/images/background/bg5.jpg') }}); background-position: bottom; background-size: cover; background-repeat: no-repeat;">
 			<div class="container">
 				<div class="section-head text-black text-center">
 					<h2 class="text-primary m-b10">Our Pricing</h2>
@@ -588,10 +588,10 @@
 						<li class="web design card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic1.jpg') }}"  alt=""> </a>
+									<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic1.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic1.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic1.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic1.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic1.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -602,10 +602,10 @@
 						<li class="advertising branding photography card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
-								<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic2.jpg') }}"  alt=""> </a>
+								<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic2.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic2.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic2.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic2.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic2.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>	
@@ -616,10 +616,10 @@
 						<li class="branding design photography card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
-								<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic3.jpg') }}"  alt=""> </a>
+								<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic3.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic3.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic3.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic3.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic3.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -630,10 +630,10 @@
 						<li class="web design card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect"> 
-								<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic4.jpg') }}"  alt=""> </a>
+								<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic4.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic4.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic4.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic4.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic4.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -644,10 +644,10 @@
 						 <li class="web branding card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-								<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic5.jpg') }}"  alt=""> </a>
+								<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic5.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic5.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic5.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic5.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic5.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -658,10 +658,10 @@
 						<li class="advertising design photography card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect ">
-								<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic6.jpg') }}"  alt=""> </a>
+								<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic6.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic6.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic6.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic6.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic6.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -672,10 +672,10 @@
 						<li class="web branding card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
-									<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic7.jpg') }}"  alt=""> </a>
+									<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic7.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic7.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic7.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic7.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic7.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -686,10 +686,10 @@
 						<li class="advertising design photography card-container col-lg-3 col-md-4 col-sm-6 col-6">
 							<div class="dlab-box dlab-gallery-box">
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect dlab-img-effect "> 
-								<a href="javascript:void(0);"> <img src="{{ asset('app_assets/images/gallery/pic8.jpg') }}"  alt=""> </a>
+								<a href="javascript:void(0);"> <img src="{{ secure_asset('app_assets/images/gallery/pic8.jpg') }}"  alt=""> </a>
 									<div class="overlay-bx">
 										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{ asset('app_assets/images/gallery/thumb/pic8.jpg') }}" data-src="{{ asset('app_assets/images/gallery/pic8.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
+											<span data-exthumbimage="{{ secure_asset('app_assets/images/gallery/thumb/pic8.jpg') }}" data-src="{{ secure_asset('app_assets/images/gallery/pic8.jpg') }}" class="icon-bx-xs check-km" title="Light Gallery Grid 1">		
 												<i class="ti-fullscreen"></i> 
 											</span>	
 										</div>
@@ -716,7 +716,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 						<div class="service-box text-center">
 							<div class="service-images m-b15">
-								<img src="{{ asset('app_assets/image/our-team/pic1.jpg') }}" alt=""/>
+								<img src="{{ secure_asset('app_assets/image/our-team/pic1.jpg') }}" alt=""/>
 							</div>
 							<div class="service-content">
 								<h6 class="text-uppercase"><a href="#" class="text-primary">Ann Smith</a></h6>
@@ -727,7 +727,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 						<div class="service-box text-center">
 							<div class="service-images m-b15">
-								<img src="{{ asset('app_assets/image/our-team/pic2.jpg') }}" alt=""/>
+								<img src="{{ secure_asset('app_assets/image/our-team/pic2.jpg') }}" alt=""/>
 							</div>
 							<div class="service-content">
 								<h6 class="text-uppercase"><a href="#" class="text-primary">Mary Lucas</a></h6>
@@ -738,7 +738,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 						<div class="service-box text-center">
 							<div class="service-images m-b15">
-								<img src="{{ asset('app_assets/image/our-team/pic3.jpg') }}" alt=""/>
+								<img src="{{ secure_asset('app_assets/image/our-team/pic3.jpg') }}" alt=""/>
 							</div>
 							<div class="service-content">
 								<h6 class="text-uppercase"><a href="#" class="text-primary">Ann Smith</a></h6>
@@ -749,7 +749,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 						<div class="service-box text-center">
 							<div class="service-images m-b15">
-								<img src="{{ asset('app_assets/image/our-team/pic4.jpg') }}" alt=""/>
+								<img src="{{ secure_asset('app_assets/image/our-team/pic4.jpg') }}" alt=""/>
 							</div>
 							<div class="service-content">
 								<h6 class="text-uppercase"><a href="#" class="text-primary">Candice Marshall </a></h6>
@@ -763,7 +763,7 @@
 		<!-- Our Professional Team -->
 		
 		<!-- Testimonials Of Our Clients -->
-		<div class="section-full content-inner-2" style="background-image:url({{ asset('app_assets/image/background/bg4.jpg') }}); background-position: bottom; background-size:cover;">
+		<div class="section-full content-inner-2" style="background-image:url({{ secure_asset('app_assets/image/background/bg4.jpg') }}); background-position: bottom; background-size:cover;">
 			<div class="container">
 				<div class="section-head text-black text-center">
 					<h2 class="text-primary m-b10">Testimonials Of Our Clients</h2>
@@ -775,7 +775,7 @@
 				<div class="testimonial-two-dots owl-carousel owl-theme owl-dots-primary-full owl-btn-center-lr owl-btn-3">
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>BeautyJolly was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 							</div>
@@ -784,7 +784,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>BeautyJolly was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 							</div>
@@ -793,7 +793,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
 							</div>
@@ -802,7 +802,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>BeautyJolly was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 							</div>
@@ -811,7 +811,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>BeautyJolly was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 							</div>
@@ -820,7 +820,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
 							</div>
@@ -829,7 +829,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic1.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>BeautyJolly was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 							</div>
@@ -838,7 +838,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic2.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>BeautyJolly was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 							</div>
@@ -847,7 +847,7 @@
 					</div>
 					<div class="item p-a5">
 						<div class="testimonial-9">
-							<div class="testimonial-pic radius style1"><img src="{{ asset('app_assets/image/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
+							<div class="testimonial-pic radius style1"><img src="{{ secure_asset('app_assets/image/testimonials/pic3.jpg') }}" width="100" height="100" alt=""></div>
 							<div class="testimonial-text">
 								<p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
 							</div>
@@ -859,7 +859,7 @@
 		</div>
 		<!-- Testimonials Of Our Clients -->
 		<!-- Our Latest Blog -->
-		<div class="section-full content-inner overlay-white-middle" style="background-image:url({{ asset('app_assets/image/background/bg1.css') }}), url({{ asset('app_assets/image/background/bg2.css') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+		<div class="section-full content-inner overlay-white-middle" style="background-image:url({{ secure_asset('app_assets/image/background/bg1.css') }}), url({{ secure_asset('app_assets/image/background/bg2.css') }}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
 			<div class="container">
 				<div class="section-head text-black text-center">
 					<h2 class="text-primary m-b10">Our Latest Blog</h2>
@@ -871,7 +871,7 @@
 				<div class="blog-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1">
 					<div class="item">
 						<div class="blog-post blog-grid blog-style-1">
-							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ asset('app_assets/image/blog/grid/pic4.jpg') }}" alt=""></a> </div>
+							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ secure_asset('app_assets/image/blog/grid/pic4.jpg') }}" alt=""></a> </div>
 							<div class="dlab-info">
 								 <div class="dlab-post-meta">
 									<ul class="d-flex align-items-center">
@@ -890,7 +890,7 @@
 					</div>
 					<div class="item">
 						<div class="blog-post blog-grid blog-style-1">
-							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ asset('app_assets/image/blog/grid/pic3.jpg') }}" alt=""></a> </div>
+							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ secure_asset('app_assets/image/blog/grid/pic3.jpg') }}" alt=""></a> </div>
 							<div class="dlab-info">
 								 <div class="dlab-post-meta">
 									<ul class="d-flex align-items-center">
@@ -909,7 +909,7 @@
 					</div>
 					<div class="item">
 						<div class="blog-post blog-grid blog-style-1">
-							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ asset('app_assets/image/blog/grid/pic2.jpg') }}" alt=""></a> </div>
+							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ secure_asset('app_assets/image/blog/grid/pic2.jpg') }}" alt=""></a> </div>
 							<div class="dlab-info">
 								 <div class="dlab-post-meta">
 									<ul class="d-flex align-items-center">
@@ -928,7 +928,7 @@
 					</div>
 					<div class="item">
 						<div class="blog-post blog-grid blog-style-1">
-							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ asset('app_assets/image/blog/grid/pic1.jpg') }}" alt=""></a> </div>
+							<div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{ secure_asset('app_assets/image/blog/grid/pic1.jpg') }}" alt=""></a> </div>
 							<div class="dlab-info">
 								 <div class="dlab-post-meta">
 									<ul class="d-flex align-items-center">
@@ -959,43 +959,43 @@
 				<div class="row">
 					<div class="carousel-gallery dots-none owl-none owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1 mfp-gallery">
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic1.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic1.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic1.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic1.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic1.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic1.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic2.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic2.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic2.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic2.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic2.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic2.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic2.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic3.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic3.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic2.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic3.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic3.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic4.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic4.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic4.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic4.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic4.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic4.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item  dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic5.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic5.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic5.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic5.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic5.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic5.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic6.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic6.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic6.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic6.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic6.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic6.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic7.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic7.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic7.jpg') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic7.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic7.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic7.jpg') }}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="{{ asset('app_assets/image/gallery/pic8.jpg') }}" data-source="{{ asset('app_assets/image/gallery/pic8.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img width="205" height="184" src="{{ asset('app_assets/image/gallery/thumb/pic8.jp') }}" alt="">
+							<a href="{{ secure_asset('app_assets/image/gallery/pic8.jpg') }}" data-source="{{ secure_asset('app_assets/image/gallery/pic8.jpg') }}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img width="205" height="184" src="{{ secure_asset('app_assets/image/gallery/thumb/pic8.jp') }}" alt="">
 							</a>
 						</div>
 					</div>
@@ -1008,7 +1008,7 @@
 					<div class="col-xl-7 col-lg-7 col-md-8 col-sm-8 text-center">
 						<div class="max-w200 p-b30 m-auto">
 							<a href="index-2.html">
-								<img src="{{ asset('app_assets/image/logo.css') }}" alt=""/>
+								<img src="{{ secure_asset('app_assets/image/logo.css') }}" alt=""/>
 							</a>
 						</div>
                         <div class="widget">
@@ -1060,39 +1060,39 @@
 	
 </div>
 <!-- JavaScript  files ========================================= -->
-<script src="{{ asset('app_assets/js/jquery.min.js') }}"></script><!-- JQUERY.MIN JS -->
-<script src="{{ asset('app_assets/plugins/bootstrap/js/popper.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="{{ asset('app_assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="{{ asset('app_assets/plugins/wow/wow.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
-<script src="{{ asset('app_assets/plugins/bootstrap-select/bootstrap-select.min.js') }}"></script><!-- FORM JS -->
-<script src="{{ asset('app_assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script><!-- FORM JS -->
-<script src="{{ asset('app_assets/plugins/magnific-popup/magnific-popup.js') }}"></script><!-- MAGNIFIC-POPUP JS -->
-<script src="{{ asset('app_assets/plugins/counter/waypoints-min.js') }}"></script><!-- WAYPOINTS JS -->
-<script src="{{ asset('app_assets/plugins/counter/counterup.min.js') }}"></script><!-- COUNTERUP JS -->
-<script src="{{ asset('app_assets/plugins/imagesloaded/imagesloaded.js') }}"></script><!-- MASONRY  -->
-<script src="{{ asset('app_assets/plugins/masonry/masonry-3.1.4.js') }}"></script><!-- MASONRY  -->
-<script src="{{ asset('app_assets/plugins/masonry/masonry.filter.js') }}"></script><!-- MASONRY  -->
-<script src="{{ asset('app_assets/plugins/owl-carousel/owl.carousel.js') }}"></script><!-- OWL  SLIDER  -->
-<script src="{{ asset('app_assets/plugins/rangeslider/rangeslider.js') }}" ></script><!-- Rangeslider -->
-<script src="{{ asset('app_assets/plugins/lightgallery/js/lightgallery-all.js') }}"></script><!-- LIGHT GALLERY -->
-<script src="{{ asset('app_assets/js/dz.carousel.min.js') }}"></script><!-- SORTCODE FUCTIONS  -->
-<script src="{{ asset('app_assets/plugins/loading/anime.js') }}"></script><!-- LOADING JS -->
-<script src="{{ asset('app_assets/plugins/loading/anime-app.js') }}"></script><!-- LOADING JS -->
-<script src="{{ asset('app_assets/js/custom.min.js') }}"></script><!-- CUSTOM FUCTIONS  -->
-<script src="{{ asset('app_assets/js/dz.ajax.js') }}"></script><!-- CONTACT JS  -->
+<script src="{{ secure_asset('app_assets/js/jquery.min.js') }}"></script><!-- JQUERY.MIN JS -->
+<script src="{{ secure_asset('app_assets/plugins/bootstrap/js/popper.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{ secure_asset('app_assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{ secure_asset('app_assets/plugins/wow/wow.js') }}"></script><!-- BOOTSTRAP.MIN JS -->
+<script src="{{ secure_asset('app_assets/plugins/bootstrap-select/bootstrap-select.min.js') }}"></script><!-- FORM JS -->
+<script src="{{ secure_asset('app_assets/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script><!-- FORM JS -->
+<script src="{{ secure_asset('app_assets/plugins/magnific-popup/magnific-popup.js') }}"></script><!-- MAGNIFIC-POPUP JS -->
+<script src="{{ secure_asset('app_assets/plugins/counter/waypoints-min.js') }}"></script><!-- WAYPOINTS JS -->
+<script src="{{ secure_asset('app_assets/plugins/counter/counterup.min.js') }}"></script><!-- COUNTERUP JS -->
+<script src="{{ secure_asset('app_assets/plugins/imagesloaded/imagesloaded.js') }}"></script><!-- MASONRY  -->
+<script src="{{ secure_asset('app_assets/plugins/masonry/masonry-3.1.4.js') }}"></script><!-- MASONRY  -->
+<script src="{{ secure_asset('app_assets/plugins/masonry/masonry.filter.js') }}"></script><!-- MASONRY  -->
+<script src="{{ secure_asset('app_assets/plugins/owl-carousel/owl.carousel.js') }}"></script><!-- OWL  SLIDER  -->
+<script src="{{ secure_asset('app_assets/plugins/rangeslider/rangeslider.js') }}" ></script><!-- Rangeslider -->
+<script src="{{ secure_asset('app_assets/plugins/lightgallery/js/lightgallery-all.js') }}"></script><!-- LIGHT GALLERY -->
+<script src="{{ secure_asset('app_assets/js/dz.carousel.min.js') }}"></script><!-- SORTCODE FUCTIONS  -->
+<script src="{{ secure_asset('app_assets/plugins/loading/anime.js') }}"></script><!-- LOADING JS -->
+<script src="{{ secure_asset('app_assets/plugins/loading/anime-app.js') }}"></script><!-- LOADING JS -->
+<script src="{{ secure_asset('app_assets/js/custom.min.js') }}"></script><!-- CUSTOM FUCTIONS  -->
+<script src="{{ secure_asset('app_assets/js/dz.ajax.js') }}"></script><!-- CONTACT JS  -->
 <!-- REVOLUTION JS FILES -->
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
 <!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
-<script src="{{ asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
-<script  src="{{ asset('app_assets/js/rev.slider.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+<script src="{{ secure_asset('app_assets/plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+<script  src="{{ secure_asset('app_assets/js/rev.slider.js') }}"></script>
 <script>
 jQuery(document).ready(function() {
 	'use strict';
